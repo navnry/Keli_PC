@@ -1,0 +1,495 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="description" content=""/>
+    <meta name="keywords" content=""/>
+    <title>科利欧蓝</title>
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../css/style.css">
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<!--通用头部S-->
+<header>
+    <div class="main">
+        <div class="wrap clearfix">
+            <div class="logo fl">
+                <a href="../../index.html">
+                    <img src="../../img/logo.png" alt="">
+                    <h1>科利欧蓝</h1>
+                </a>
+            </div>
+            <div class="header-top-right clearfix fr">
+                <p class="tel fl">
+                    <span>咨询热线：</span>
+                    <a href="tel:0731 - 84650818">0731 - 84650818</a>
+                </p>
+                <ul class="collect fl">
+                    <li><a href="javascript:;">留言反馈</a></li>
+                    <li><a href="javascript:;" onclick="AddFavorite(window.location,document.title)">网站收藏</a></li>
+                </ul>
+            </div>
+            <nav id="headerNav" class="nav fr">
+                <ul>
+                    <li><a href="">首页</a></li>
+                    <li><a href="">关于我们</a></li>
+                    <li><a href="">产品中心</a></li>
+                    <li><a href="">成功案例</a></li>
+                    <li><a href="">售后服务</a></li>
+                    <li><a href="">合作政策</a></li>
+                    <li><a href="">新闻资讯</a></li>
+                    <li><a href="">联系我们</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+<!--通用头部E-->
+
+<!--内容区S-->
+<main>
+
+    <div class="banner">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <a href="javascript:;">
+                        <img src="../../img/banner_hzzc.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--搜索框S-->
+    <div class="search-sub">
+        <div class="main">
+            <div class="wrap clearfix">
+                <div class="search-words">
+                    <span>热门关键词：</span>
+                    <a href="">隧道式洗车机</a>
+                    <a href="">往复式洗车机</a>
+                    <a href="">无人值守</a>
+                    <a href="">巴士洗车机</a>
+                </div>
+                <div class="search-box">
+                    <form action="">
+                        <input type="text" placeholder="请输入关键词......" autocomplete="false">
+                        <button type="submit" id="search_btn"><img src="../../img/icon_sousuo.png" alt=""></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--搜索框E-->
+
+    <!--面包屑S-->
+    <div class="crumbs">
+        <div class="main">
+            <div class="wrap">
+                <span>您的位置：</span>
+                <a href=""> 首页 ></a>
+                <a href=""> 新闻资讯 ></a>
+            </div>
+        </div>
+    </div>
+    <!--面包屑E-->
+
+
+    <div class="numdata">
+        <div class="main pb80">
+            <div class="wrap">
+                <div class="numdata-wrap clearfix">
+                    <div class="numdata-head fl">
+                        <p> 投资回报分析（数据来源于AC汽车）</p>
+                    </div>
+                    <div class="numdata-body fr">
+                        <table border="1">
+                            　　　　　　　　　　 　　　　　　　　　　　　　　　　　　　　　　　　
+                            <thead>
+                            <tr>
+                                <th>项目</th>
+                                <th colspan="2">60单/天</th>
+                                <th colspan="2">70单/天</th>
+                                <th colspan="2">80单/天</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>洗车价格</td>
+                                <td>15元</td>
+                                <td>10元</td>
+                                <td>15元</td>
+                                <td>10元</td>
+                                <td>15元</td>
+                                <td>10元</td>
+                            </tr>
+                            <tr>
+                                <td>投资金额</td>
+                                <td>15万</td>
+                                <td>15万</td>
+                                <td>15万</td>
+                                <td>15万</td>
+                                <td>15万</td>
+                                <td>15万</td>
+                            </tr>
+                            <tr>
+                                <td>场地租金/年</td>
+                                <td>3万</td>
+                                <td>3万</td>
+                                <td>3万</td>
+                                <td>3万</td>
+                                <td>3万</td>
+                                <td>3万</td>
+                            </tr>
+                            <tr>
+                                <td>工作天数/年</td>
+                                <td>250天</td>
+                                <td>250天</td>
+                                <td>250天</td>
+                                <td>250天</td>
+                                <td>250天</td>
+                                <td>250天</td>
+                            </tr>
+                            <tr>
+                                <td>日租金/辆</td>
+                                <td>2元</td>
+                                <td>2元</td>
+                                <td>1.7元</td>
+                                <td>1.7元</td>
+                                <td>15元</td>
+                                <td>1.元</td>
+                            </tr>
+                            <tr>
+                                <td>洗车液蜡水/辆</td>
+                                <td>0.6元</td>
+                                <td>0.6元</td>
+                                <td>0.6元</td>
+                                <td>0.6元</td>
+                                <td>0.6元</td>
+                                <td>0.6元</td>
+                            </tr>
+                            <tr>
+                                <td>水电费/辆</td>
+                                <td>1.1元</td>
+                                <td>1.1元</td>
+                                <td>1.1元</td>
+                                <td>1.1元</td>
+                                <td>1.1元</td>
+                                <td>1.1元</td>
+                            </tr>
+                            <tr>
+                                <td>总成本/辆</td>
+                                <td>3.7元</td>
+                                <td>3.7元</td>
+                                <td>3.4元</td>
+                                <td>3.4元</td>
+                                <td>3.2元</td>
+                                <td>3.2元</td>
+                            </tr>
+                            <tr>
+                                <td>洗车纯利/辆</td>
+                                <td>11.3元</td>
+                                <td>6.3元</td>
+                                <td>11.6元</td>
+                                <td>6.6元</td>
+                                <td>11.8元</td>
+                                <td>6.8元</td>
+                            </tr>
+                            <tr>
+                                <td>年纯利</td>
+                                <td>169500元</td>
+                                <td>94500元</td>
+                                <td>172050元</td>
+                                <td>115500元</td>
+                                <td>236000元</td>
+                                <td>136000元</td>
+                            </tr>
+                            <tr>
+                                <td>回本周期</td>
+                                <td>10个月</td>
+                                <td>18个月</td>
+                                <td>10个月</td>
+                                <td>15个月</td>
+                                <td>7个月</td>
+                                <td>12个月</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="tips">
+                        <p>该核算只算了简单洗车，办卡带来的快速回收投资及转化其他项目收益未算</p>
+                    </div>
+                </div>
+
+                <div class="advert-2 mt50 clearfix">
+                    <div class="pic fl">
+                        <img src="../../img/hzms_img.png" alt="">
+                    </div>
+                    <div class="content fr">
+                        <div class="tit"><p>合作模式</p></div>
+                        <div class="desc">
+                            <div class="item">
+                                <p class="p1">
+                                    <i><img src="../../img/icon_hz_01.png" alt=""></i>
+                                    <span>租赁模式</span>
+                                    <em>/ LEASING MODE</em>
+                                </p>
+                                <p class="p2">
+                                    <span>三年起租，五年换新，售后不花一分钱</span>
+                                </p>
+                            </div>
+                            <div class="item">
+                                <p class="p1">
+                                    <i><img src="../../img/icon_hz_02.png" alt=""></i>
+                                    <span>以租代购</span>
+                                    <em>/ CAR LEASE</em>
+                                </p>
+                                <p class="p2">
+                                    <span>1-3年分期购，月供低至3400元</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="yjhx">
+        <div class="main ph80">
+            <div class="plate-title white">
+                <div class="cn"><span>以旧换新方案</span></div>
+                <div class="en"></div>
+            </div>
+            <div class="wrap">
+                <div class="list">
+                    <ul>
+                        <li>
+                            <i><img src="../../img/yjhx_01.jpg" alt=""></i>
+                            <p class="p1">无接触式洗车机</p>
+                            <p class="p2">1.所有无接触式洗车机可以折现3000元。</p>
+                        </li>
+                        <li>
+                            <i><img src="../../img/yjhx_02.jpg" alt=""></i>
+                            <p class="p1">往复式洗车机</p>
+                            <p class="p2">1.原价格在4-10万左右，使用三年以内的非品牌往复式洗车机，可以折价7000元。</p>
+                            <br>
+                            <p class="p2">2.原价格12万以上，使用三年以内的品牌往复式洗车可以折价12000元</p>
+                            <br>
+                            <p class="p2">3.所有三年以上的往复机折价5000元</p>
+                        </li>
+                        <li>
+                            <i><img src="../../img/yjhx_03.jpg" alt=""></i>
+                            <p class="p1">隧道式洗车机</p>
+                            <p class="p2">1.原价格20万以下使用三年以内的非品牌隧道式机可以折价18000元</p>
+                            <br>
+                            <p class="p2">2.原价20万以上使用三年以内的品牌隧道式洗车机可以折价24000元</p>
+                            <br>
+                            <p class="p2">3.所有三年以上的隧道洗车机折价15000元</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="csfa">
+        <div class="main pb80">
+            <div class="plate-title">
+                <div class="cn"><span>城市合伙人方案</span></div>
+                <div class="en"></div>
+            </div>
+            <div class="wrap clearfix">
+                <div class="left fl">
+                    <div class="content">
+                        <div class="tit"><p><b>五大</b>支持</p></div>
+                        <div class="desc">
+                            <p><i>1</i>首台样板智能洗车机落地支持</p>
+                            <p><i>2</i>区域内洗车机金融租赁支持</p>
+                            <p><i>3</i>前期选址、基建、运维、运营等支持</p>
+                            <p><i>4</i>一个月一次所在区域营销会议支持，总部电销支持</p>
+                            <p><i>5</i>城市独家代理经营权</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="right fr">
+                    <div class="pic">
+                        <img src="../../img/cshhrfa.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="zdfa">
+        <div class="main pb80">
+            <div class="plate-title">
+                <div class="cn"><span>战点合伙人方案</span></div>
+                <div class="en"></div>
+            </div>
+            <div class="wrap">
+                <div class="pic">
+                    <img src="../../img/zdhhr.png" alt="">
+                </div>
+                <p class="p1">仅需5万即可轻松当老板</p>
+                <p class="p2">享受站点运营收益20%的分润</p>
+                <p class="p3">专业团队负责代运营、您负责躺赚</p>
+                <p class="p4">优质洗车场景，先到先得。专业团队<br>场地查勘、风控把关。</p>
+                <p class="p5">手机端洗车营收自动分润，<br>收益天天看得到。</p>
+            </div>
+        </div>
+    </div>
+
+</main>
+
+
+<!--内容区E-->
+
+<!--侧边悬浮S-->
+<div class="guide">
+    <div class="guide-wrap">
+        <div class="guide-item">
+            <a target="_blank" href="">
+                <div class="icon"><i class="iconfont icon-dianhua"></i></div>
+                <div class="txt"><span>联系电话</span></div>
+            </a>
+        </div>
+        <div class="guide-item">
+            <a target="_blank" href="">
+                <div class="icon"><i class="iconfont icon-qq-copy"></i></div>
+                <div class="txt"><span>QQ咨询</span></div>
+            </a>
+        </div>
+        <div class="guide-item">
+            <a href="">
+                <div class="icon"><i class="iconfont icon-liuyan"></i></div>
+                <div class="txt"><span>在线留言</span></div>
+            </a>
+        </div>
+        <div class="guide-item">
+            <a href="javascript:;">
+                <div class="icon"><i class="iconfont icon-weixin"></i></div>
+                <div class="txt"><span>公众号</span></div>
+            </a>
+            <div class="guide-item-child">
+                <div class="guide-item-child-wrap">
+                    <img src="../../img/qrcode_01.png" alt="">
+                    <div class="shadow"></div>
+                </div>
+            </div>
+        </div>
+        <div class="guide-item">
+            <a href="javascript:;" id="totop">
+                <div class="icon"><i class="iconfont icon-fanhuidingbu-copy"></i></div>
+                <div class="txt"><span>返回顶部</span></div>
+            </a>
+        </div>
+    </div>
+</div>
+<!--侧边悬浮E-->
+
+<!--通用底部留言S-->
+<div class="record eee">
+    <div class="main ph80">
+        <div class="wrap clearfix">
+            <div class="left fl">
+                <p class="p1">科利欧蓝<b>真诚服务，量身定制</b></p>
+                <p class="p2">立即留言，免费获取方案！</p>
+                <p class="p3">集研发、制造、加工、安装一体化生产</p>
+                <p class="p4">咨询热线：<b>0731 - 84650818</b></p>
+                <p class="p5">Sincere Service</p>
+                <p class="p6">Tailor-made</p>
+            </div>
+            <div class="right fr">
+                <form action="">
+                    <input type="text" placeholder="姓名">
+                    <input type="text" placeholder="电话">
+                    <input type="text" placeholder="地址">
+                    <button type="submit">立即留言</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!--通用底部留言E-->
+
+
+
+<!--友情链接S-->
+<div class="friend-link">
+    <div class="main">
+        <div class="wrap">
+            <span>友情链接 <i class="iconfont icon-bianjiICONCopy-"></i></span>
+            <a href="">友情链接</a>
+            <a href="">友情链接</a>
+            <a href="">友情链接</a>
+            <a href="">友情链接</a>
+            <a href="">友情链接</a>
+            <a href="">友情链接</a>
+            <a href="">友情链接</a>
+        </div>
+    </div>
+</div>
+<!--友情链接E-->
+
+<!--通用底部S-->
+<footer>
+    <div class="main">
+        <div class="wrap clearfix">
+            <div class="fLogo fl">
+                <a href="javascript:;">
+                    <img src="../../img/footer_logo.png" alt="">
+                </a>
+            </div>
+            <div class="fNav fl">
+                <ul class="fNav-list"> 　　　　　　
+                    <li><a href="">关于我们</a></li>
+                    <li><a href="">产品中心</a></li>
+                    <li><a href="">成功案例</a></li>
+                    <li><a href="">售后服务</a></li>
+                    <li><a href="">合作政策</a></li>
+                    <li><a href="">新闻资讯</a></li>
+                    <li><a href="">联系我们</a></li>
+                    <li><a href="">返回首页</a></li>
+                </ul>
+                <div class="fCopyright">
+                    <p>Copyright 2019 蓝天科利欧蓝洗车机 版权所有</p>
+                    <p>湘ICP备16016675号-1 技术支持：<a href="http://www.zhitouweilai.com">智投未来</a></p>
+                </div>
+            </div>
+            <div class="fContact fl">
+                <p class="p1">蓝天科利欧蓝洗车机</p>
+                <p>地址：长沙市经济技术开发区楠竹园路58号  </p>
+                <p>电话：0731 - 84650818</p>
+                <p>邮箱：2436228@qq.com</p>
+            </div>
+            <div class="fCode clearfix fr">
+                <div class="item fl">
+                    <img src="../../img/qrcode_01.png" alt="">
+                    <p>关注微信公众号</p>
+                </div>
+                <div class="item fl">
+                    <img src="../../img/qrcode_02.png" alt="">
+                    <p>关注手机官网</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--通用底部E-->
+
+</body>
+<script src="../../js/jquery-1.11.3.min.js"></script>
+<script src="../../js/swiper.min.js"></script>
+<script src="../../js/custom_map_config.js"></script>
+<script src="../../js/jparticle.min.js"></script>
+<script src="../../js/common.js"></script>
+</html>

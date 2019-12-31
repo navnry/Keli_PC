@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="description" content=""/>
+    <meta name="keywords" content=""/>
+    <title>科利欧蓝</title>
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../css/style.css">
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<!--通用头部S-->
+<header>
+    <div class="main">
+        <div class="wrap clearfix">
+            <div class="logo fl">
+                <a href="../../index.html">
+                    <img src="../../img/logo.png" alt="">
+                    <h1>科利欧蓝</h1>
+                </a>
+            </div>
+            <div class="header-top-right clearfix fr">
+                <p class="tel fl">
+                    <span>咨询热线：</span>
+                    <a href="tel:0731 - 84650818">0731 - 84650818</a>
+                </p>
+                <ul class="collect fl">
+                    <li><a href="javascript:;">留言反馈</a></li>
+                    <li><a href="javascript:;" onclick="AddFavorite(window.location,document.title)">网站收藏</a></li>
+                </ul>
+            </div>
+            <nav id="headerNav" class="nav fr">
+                <ul>
+                    <li><a href="">首页</a></li>
+                    <li><a href="">关于我们</a></li>
+                    <li><a href="">产品中心</a></li>
+                    <li><a href="">成功案例</a></li>
+                    <li><a href="">售后服务</a></li>
+                    <li><a href="">合作政策</a></li>
+                    <li><a href="">新闻资讯</a></li>
+                    <li><a href="">联系我们</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+<!--通用头部E-->
+
+<!--内容区S-->
+<main>
+
+    <div class="banner">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <a href="javascript:;">
+                        <img src="../../img/banner_shfw.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--搜索框S-->
+    <div class="search-sub">
+        <div class="main">
+            <div class="wrap clearfix">
+                <div class="search-words">
+                    <span>热门关键词：</span>
+                    <a href="">隧道式洗车机</a>
+                    <a href="">往复式洗车机</a>
+                    <a href="">无人值守</a>
+                    <a href="">巴士洗车机</a>
+                </div>
+                <div class="search-box">
+                    <form action="">
+                        <input type="text" placeholder="请输入关键词......" autocomplete="false">
+                        <button type="submit" id="search_btn"><img src="../../img/icon_sousuo.png" alt=""></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--搜索框E-->
+
+    <!--面包屑S-->
+    <div class="crumbs">
+        <div class="main">
+            <div class="wrap">
+                <span>您的位置：</span>
+                <a href=""> 首页 ></a>
+                <a href=""> 新闻资讯 ></a>
+            </div>
+        </div>
+    </div>
+    <!--面包屑E-->
+
+
+    <div class="shfw">
+        <div class="main pb80">
+            <div class="plate-title">
+                <div class="cn"><span><b>科利欧蓝</b> · 优质售后服务</span></div>
+            </div>
+            <div class="wrap">
+                <div class="list">
+                    <p class="c">
+                        科利欧蓝一直坚信，过硬的质量，完善的售后服务，才是一个生产企业的立足之本。通过蓝天科技十年机器人研发制造经验加持，公司在售后服务及反应机制上建立了一整套完善的体系，组建了一支专业、敬业的售后队伍，并一次性采购了多辆工勤车用于售后服务，只要客户有需求，科利欧蓝售后人员将会第一时间驱车前往，风雨无阻，真正实现24小时连心服务。</p>
+                    <ul>
+                        <li>
+                            <i><img src="../../img/shfw_icon_01.png" alt=""></i>
+                            <p>用户至上</p>
+                        </li>
+                        <li>
+                            <i><img src="../../img/shfw_icon_02.png" alt=""></i>
+                            <p>保障及时</p>
+                        </li>
+                        <li>
+                            <i><img src="../../img/shfw_icon_03.png" alt=""></i>
+                            <p>服务热情</p>
+                        </li>
+                        <li>
+                            <i><img src="../../img/shfw_icon_04.png" alt=""></i>
+                            <p>工作有效</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fwwl">
+        <div class="main ph80">
+            <div class="plate-title">
+                <div class="cn"><span><b>服务</b>网络</span></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="shbz">
+        <div class="main ph80">
+            <div class="wrap clearfix">
+                <div class="left fl">
+                    <div class="plate-title lb clearfix fl">
+                        <div class="cn fl"><span>售后及维保标准</span></div>
+                        <div class="en fl"><span>质保周期1年+N年</span></div>
+                    </div>
+                    <div class="table-box">
+                        <table>
+                            <thead>
+                            <tr>
+                                <th>公里数</th>
+                                <th>上门售后</th>
+                                <th>备注</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>售后点≤200KM</td>
+                                <td>8小时</td>
+                                <td>每月巡检，主动售后，一年两次，一般售后故障；</td>
+                            </tr>
+                            <tr>
+                                <td>≥200KM≤500KM</td>
+                                <td>24小时</td>
+                                <td>2小时响应远程解决，4小时处理好；</td>
+                            </tr>
+                            <tr>
+                                <td>≥500KM≤1000KM</td>
+                                <td>48小时</td>
+                                <td>超过48小时未解决问题保内客户按200元／天的标准赔偿</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="tips"><p><b>* 每一台洗车机都由平安承保</b></p></div>
+                </div>
+                <div class="right fr">
+                    <div class="plate-title lb clearfix fl">
+                        <div class="cn fl"><span>保外客户收费明细</span></div>
+                    </div>
+                    <div class="table-box">
+                        <table>
+                            <thead>
+                            <tr>
+                                <th>人力服务费</th>
+                                <th>差旅费</th>
+                                <th>配件价格</th>
+                                <th>备注（保外客户）</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>500/天</td>
+                                <td>来回路费<br>实报实销</td>
+                                <td>见配件清单</td>
+                                <td>上门售后时间同上</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="tips"><p>若对服务不满意，可打电话投诉：<b>0731-84650818</b></p></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>
+
+
+<!--内容区E-->
+
+<!--侧边悬浮S-->
+<div class="guide">
+    <div class="guide-wrap">
+        <div class="guide-item">
+            <a target="_blank" href="">
+                <div class="icon"><i class="iconfont icon-dianhua"></i></div>
+                <div class="txt"><span>联系电话</span></div>
+            </a>
+        </div>
+        <div class="guide-item">
+            <a target="_blank" href="">
+                <div class="icon"><i class="iconfont icon-qq-copy"></i></div>
+                <div class="txt"><span>QQ咨询</span></div>
+            </a>
+        </div>
+        <div class="guide-item">
+            <a href="">
+                <div class="icon"><i class="iconfont icon-liuyan"></i></div>
+                <div class="txt"><span>在线留言</span></div>
+            </a>
+        </div>
+        <div class="guide-item">
+            <a href="javascript:;">
+                <div class="icon"><i class="iconfont icon-weixin"></i></div>
+                <div class="txt"><span>公众号</span></div>
+            </a>
+            <div class="guide-item-child">
+                <div class="guide-item-child-wrap">
+                    <img src="../../img/qrcode_01.png" alt="">
+                    <div class="shadow"></div>
+                </div>
+            </div>
+        </div>
+        <div class="guide-item">
+            <a href="javascript:;" id="totop">
+                <div class="icon"><i class="iconfont icon-fanhuidingbu-copy"></i></div>
+                <div class="txt"><span>返回顶部</span></div>
+            </a>
+        </div>
+    </div>
+</div>
+<!--侧边悬浮E-->
+
+<!--通用底部留言S-->
+<div class="record eee">
+    <div class="main ph80">
+        <div class="wrap clearfix">
+            <div class="left fl">
+                <p class="p1">科利欧蓝<b>真诚服务，量身定制</b></p>
+                <p class="p2">立即留言，免费获取方案！</p>
+                <p class="p3">集研发、制造、加工、安装一体化生产</p>
+                <p class="p4">咨询热线：<b>0731 - 84650818</b></p>
+                <p class="p5">Sincere Service</p>
+                <p class="p6">Tailor-made</p>
+            </div>
+            <div class="right fr">
+                <form action="">
+                    <input type="text" placeholder="姓名">
+                    <input type="text" placeholder="电话">
+                    <input type="text" placeholder="地址">
+                    <button type="submit">立即留言</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!--通用底部留言E-->
+
+
+<!--友情链接S-->
+<div class="friend-link">
+    <div class="main">
+        <div class="wrap">
+            <span>友情链接 <i class="iconfont icon-bianjiICONCopy-"></i></span>
+            <a href="">友情链接</a>
+            <a href="">友情链接</a>
+            <a href="">友情链接</a>
+            <a href="">友情链接</a>
+            <a href="">友情链接</a>
+            <a href="">友情链接</a>
+            <a href="">友情链接</a>
+        </div>
+    </div>
+</div>
+<!--友情链接E-->
+
+<!--通用底部S-->
+<footer>
+    <div class="main">
+        <div class="wrap clearfix">
+            <div class="fLogo fl">
+                <a href="javascript:;">
+                    <img src="../../img/footer_logo.png" alt="">
+                </a>
+            </div>
+            <div class="fNav fl">
+                <ul class="fNav-list"> 　　　　　　
+                    <li><a href="">关于我们</a></li>
+                    <li><a href="">产品中心</a></li>
+                    <li><a href="">成功案例</a></li>
+                    <li><a href="">售后服务</a></li>
+                    <li><a href="">合作政策</a></li>
+                    <li><a href="">新闻资讯</a></li>
+                    <li><a href="">联系我们</a></li>
+                    <li><a href="">返回首页</a></li>
+                </ul>
+                <div class="fCopyright">
+                    <p>Copyright 2019 蓝天科利欧蓝洗车机 版权所有</p>
+                    <p>湘ICP备16016675号-1 技术支持：<a href="http://www.zhitouweilai.com">智投未来</a></p>
+                </div>
+            </div>
+            <div class="fContact fl">
+                <p class="p1">蓝天科利欧蓝洗车机</p>
+                <p>地址：长沙市经济技术开发区楠竹园路58号  </p>
+                <p>电话：0731 - 84650818</p>
+                <p>邮箱：2436228@qq.com</p>
+            </div>
+            <div class="fCode clearfix fr">
+                <div class="item fl">
+                    <img src="../../img/qrcode_01.png" alt="">
+                    <p>关注微信公众号</p>
+                </div>
+                <div class="item fl">
+                    <img src="../../img/qrcode_02.png" alt="">
+                    <p>关注手机官网</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--通用底部E-->
+
+</body>
+<script src="../../js/jquery-1.11.3.min.js"></script>
+<script src="../../js/swiper.min.js"></script>
+<script src="../../js/custom_map_config.js"></script>
+<script src="../../js/jparticle.min.js"></script>
+<script src="../../js/common.js"></script>
+</html>

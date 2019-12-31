@@ -1,0 +1,780 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="description" content=""/>
+    <meta name="keywords" content=""/>
+    <title>科利欧蓝</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<!--通用头部S-->
+<header>
+    <div class="main">
+        <div class="wrap clearfix">
+            <div class="logo fl">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="">
+                    <h1>科利欧蓝</h1>
+                </a>
+            </div>
+            <div class="header-top-right clearfix fr">
+                <p class="tel fl">
+                    <span>咨询热线：</span>
+                    <a href="tel:0731 - 84650818">0731 - 84650818</a>
+                </p>
+                <ul class="collect fl">
+                    <li><a href="javascript:;">留言反馈</a></li>
+                    <li><a href="javascript:;" onclick="AddFavorite(window.location,document.title)">网站收藏</a></li>
+                </ul>
+            </div>
+            <nav id="headerNav" class="nav fr">
+                <ul>
+                    <li><a href="">首页</a></li>
+                    <li><a href="">关于我们</a></li>
+                    <li><a href="">产品中心</a></li>
+                    <li><a href="">成功案例</a></li>
+                    <li><a href="">售后服务</a></li>
+                    <li><a href="">合作政策</a></li>
+                    <li><a href="">新闻资讯</a></li>
+                    <li><a href="">联系我们</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+<!--通用头部E-->
+
+<!--内容区S-->
+<main>
+
+    <div class="banner">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <a href="javascript:;">
+                        <img src="img/banner_home_01.jpg" alt="">
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="javascript:;">
+                        <img src="img/banner_home_01.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--搜索框S-->
+    <div class="search-sub">
+        <div class="main">
+            <div class="wrap clearfix">
+                <div class="search-words">
+                    <span>热门关键词：</span>
+                    <a href="">隧道式洗车机</a>
+                    <a href="">往复式洗车机</a>
+                    <a href="">无人值守</a>
+                    <a href="">巴士洗车机</a>
+                </div>
+                <div class="search-box">
+                    <form action="">
+                        <input type="text" placeholder="请输入关键词......" autocomplete="false">
+                        <button type="submit" id="search_btn"><img src="img/icon_sousuo.png" alt=""></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--搜索框E-->
+
+    <div class="about">
+        <div class="main ph80">
+            <div class="wrap clearfix">
+                <div class="left fl">
+                    <div class="plate-title">
+                        <div class="en"><span>ABOUT US</span></div>
+                        <div class="cn"><span>关于我们</span></div>
+                    </div>
+                    <div class="content">
+                        <div class="txt"><p>
+                            科利欧蓝洗车机，系出名门，专注于各类全自动电脑洗车设备的设计、制造与销售。依托母公司蓝天科技在机器人系统集成领域的技术经验和资源优势，科利欧蓝洗车机先后获得多项行业荣誉与技术专利，成为国内快速成长的智能洗车设备品牌。</p>
+                        </div>
+                        <div class="btn"><a href="javascript:;"><span>LEARN MORE</span><i
+                                class="iconfont icon-chakangengduo"></i></a></div>
+                        <div class="pic"><img src="img/niaokan.jpg" alt=""></div>
+                    </div>
+                </div>
+                <div class="right fr">
+                    <div class="about-film">
+                        <div class="film-wrap" style="background-image: url(img/qysl_01.jpg)">
+                            <div id="play-btn" class="play-btn"></div>
+                            <div class="film-mask">
+                                <div class="wrap">
+                                    <video src="" controls></video>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-num">
+                        <ul>
+                            <li>
+                                <p class="p1">
+                                    <span data-sum="2007">0</span>
+                                    <i>年</i>
+                                </p>
+                                <p class="p2">
+                                    <span>公司成立于</span>
+                                </p>
+                            </li>
+                            <li>
+                                <p class="p1">
+                                    <span data-sum="2007">33000</span>
+                                    <i>㎡</i>
+                                </p>
+                                <p class="p2">
+                                    <span>厂区面积</span>
+                                </p>
+                            </li>
+                            <li>
+                                <p class="p1">
+                                    <span data-sum="2007">700</span>
+                                    <i>+</i>
+                                </p>
+                                <p class="p2">
+                                    <span>洗车机年产销</span>
+                                </p>
+                            </li>
+                            <li>
+                                <p class="p1">
+                                    <span data-sum="2007">60</span>
+                                    <i>+</i>
+                                </p>
+                                <p class="p2">
+                                    <span>专业研发设计人员</span>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="bottom fl">
+                    <div class="title-s">
+                        <div class="cn"><span>荣誉资质</span></div>
+                        <div class="en"><span>HONOR</span></div>
+                    </div>
+                    <div class="honour-swiper">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="img/honour_img_01.jpg" alt=""></div>
+                                <div class="swiper-slide"><img src="img/honour_img_02.jpg" alt=""></div>
+                                <div class="swiper-slide"><img src="img/honour_img_03.jpg" alt=""></div>
+                                <div class="swiper-slide"><img src="img/honour_img_04.jpg" alt=""></div>
+                                <div class="swiper-slide"><img src="img/honour_img_05.jpg" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-prev swiper-button-black"></div>
+                        <div class="swiper-button-next swiper-button-black"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="hot">
+
+        <div class="main ph80">
+            <div class="plate-title">
+                <div class="cn"><span>热销<b>洗车机</b></span></div>
+                <div class="en"><span>Hot Products</span></div>
+            </div>
+            <div class="wrap">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="tit"><span>无人值守洗车机</span></div>
+                            <div class="desc"><p>无需人工，三步洗净</p></div>
+                            <div class="btn"><a href=""><span>了解更多>></span></a></div>
+                            <div class="pic"><img src="img/hot_img_01.png" alt=""></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="tit"><span>隧道连续式洗车机</span></div>
+                            <div class="desc"><p>三段式装配模式，“惊洗”一站到底</p></div>
+                            <div class="btn"><a href=""><span>了解更多>></span></a></div>
+                            <div class="pic"><img src="img/hot_img_02.png" alt=""></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="tit"><span>往复式洗车机</span></div>
+                            <div class="desc"><p>杯水车“新”，爱车SPA</p></div>
+                            <div class="btn"><a href=""><span>了解更多>></span></a></div>
+                            <div class="pic"><img src="img/hot_img_03.png" alt=""></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="tit"><span>往复式洗车机</span></div>
+                            <div class="desc"><p>杯水车“新”，爱车SPA</p></div>
+                            <div class="btn"><a href=""><span>了解更多>></span></a></div>
+                            <div class="pic"><img src="img/hot_img_03.png" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="quality">
+        <div class="main pt80">
+            <div class="plate-title">
+                <div class="cn"><span><b>品质精益求精  智能引领未来</b></span></div>
+                <div class="cn-s"><span>科利欧蓝智能洗车机，为您带来全新体验，让洗车更经济、更安全、更清洁、更环保</span></div>
+            </div>
+            <div class="wrap">
+                <div class="list quality-list clearfix">
+                    <ul class="left fl">
+                        <li>
+                            <div class="inner">
+                                <div class="tit"><img src="img/quality_icon_01.png" alt=""><span>安全可靠</span></div>
+                                <div class="desc"><p>智能工控电脑(芯片级)实现24小时远程控制，保证设备安全运转</p></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="inner">
+                                <div class="tit"><img src="img/quality_icon_03.png" alt=""><span>智能定位</span></div>
+                                <div class="desc"><p>轮毂车身定位系统，保证车辆获得最佳清洗效果</p></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="inner">
+                                <div class="tit"><img src="img/quality_icon_05.png" alt=""><span>清洗模式</span></div>
+                                <div class="desc"><p>自动仿形刷洗车身的原理保证车辆360度无死角洗净</p></div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="center">
+                        <img src="img/quality_img_01.jpg" alt="">
+                    </div>
+                    <ul class="right fr">
+                        <li>
+                            <div class="inner">
+                                <div class="tit"><img src="img/quality_icon_02.png" alt=""><span>毛刷材质</span></div>
+                                <div class="desc"><p>采用进口聚乙烯泡沫塑料材质温和擦拭车身，最大化防止刮伤车身</p></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="inner">
+                                <div class="tit"><img src="img/quality_icon_04.png" alt=""><span>预洗系统</span></div>
+                                <div class="desc"><p>预冲洗模式先对车身进行无接触式清洗，最大化保证车辆不伤漆</p></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="inner">
+                                <div class="tit"><img src="img/quality_icon_06.png" alt=""><span>三级水处理循环系统</span></div>
+                                <div class="desc"><p>预冲洗模式先对车身进行无接触式清洗，最大化保证车辆不伤漆</p></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="prominent">
+        <div class="main pt80">
+            <div class="plate-title">
+                <div class="cn"><span><b>产品三大亮点</b></span></div>
+                <div class="en"><span>PRODUCT HIGHLIGHTS</span></div>
+            </div>
+            <div class="wrap">
+                <div class="prominent-container swiper-container mt40">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide item clearfix">
+                            <div class="left fl">
+                                <img src="img/prominent_img_01.jpg" alt="">
+                            </div>
+                            <div class="right fr">
+                                <div class="tit"><span>智能工控电脑控制驱动</span></div>
+                                <div class="desc"><p>
+                                    第四代智能工控电脑（芯片级）控制驱动洗车设备。控制系统更加简洁，直接驱动能耗更低：全电驱动，控制更精准，扩展型更加强大。售后维护便捷式操作！</p></div>
+                                <div class="btn"><a href="javascript:;"><span>立即咨询</span><i
+                                        class="iconfont icon-xiangsujiantou1"></i></a></div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide item clearfix">
+                            <div class="left fl">
+                                <img src="img/prominent_img_01.jpg" alt="">
+                            </div>
+                            <div class="right fr">
+                                <div class="tit"><span>智能工控电脑控制驱动</span></div>
+                                <div class="desc"><p>
+                                    第四代智能工控电脑（芯片级）控制驱动洗车设备。控制系统更加简洁，直接驱动能耗更低：全电驱动，控制更精准，扩展型更加强大。售后维护便捷式操作！</p></div>
+                                <div class="btn"><a href="javascript:;"><span>立即咨询</span><i
+                                        class="iconfont icon-xiangsujiantou1"></i></a></div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide item clearfix">
+                            <div class="left fl">
+                                <img src="img/prominent_img_01.jpg" alt="">
+                            </div>
+                            <div class="right fr">
+                                <div class="tit"><span>智能工控电脑控制驱动</span></div>
+                                <div class="desc"><p>
+                                    第四代智能工控电脑（芯片级）控制驱动洗车设备。控制系统更加简洁，直接驱动能耗更低：全电驱动，控制更精准，扩展型更加强大。售后维护便捷式操作！</p></div>
+                                <div class="btn"><a href="javascript:;"><span>立即咨询</span><i
+                                        class="iconfont icon-xiangsujiantou1"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="prominent-tabs mt40">
+                    <ul>
+                        <li class="active">
+                            <p class="p1">
+                                <span>01</span>
+                                <i>FIRST</i>
+                            </p>
+                            <p class="p2"><span>智能工控电脑控制驱动</span></p>
+                        </li>
+                        <li>
+                            <p class="p1">
+                                <span>02</span>
+                                <i>SECOND</i>
+                            </p>
+                            <p class="p2"><span>三段式装配提高交付能力</span></p>
+                        </li>
+                        <li>
+                            <p class="p1">
+                                <span>03</span>
+                                <i>THIRD &nbsp;</i>
+                            </p>
+                            <p class="p2"><span>蜗壳式风机风干功能95%</span></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="advert">
+        <div class="main pt80">
+            <div class="wrap clearfix">
+                <div class="right fr">
+                    <p class="p1">不知道产品该如何选型？想了解更多信息？</p>
+                    <p class="p2">立即拨打咨询热线，为您详细讲解产品信息</p>
+                    <p class="p3"><span>咨询热线：</span><b>0731-84650818</b><a href="">立即咨询</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="advantage pt80">
+        <div class="title">
+            <div class="inner">
+                <p class="p1">核心优势</p>
+                <p class="p2">选择科利欧蓝洗车机</p>
+            </div>
+        </div>
+
+
+        <div class="wrap">
+            <div class="list advantage-list">
+                <ul>
+                    <li>
+                        <div class="inner clearfix">
+                            <div class="con  clearfix">
+                                <div class="icon fl">
+                                    <i>
+                                        <img src="img/advantage_icon_01.png" alt="">
+                                    </i>
+                                </div>
+                                <div class="content fl">
+                                    <div class="tit">
+                                        <p>企业实力雄厚，专业技术值得信赖！</p>
+                                    </div>
+                                    <div class="desc">
+                                        <p>◆ 湖南高新技术企业</p>
+                                        <p>◆ 国内知名的工业机器人系统集成商及智能洗车机制造商</p>
+                                        <p>◆ 集技术研发、生产制造为一体的自动化制造企业</p>
+                                        <p>◆ 2010年通过ISO9001质量认证体系，并严格按照标准实施</p>
+                                        <p>◆ 主要元器件均采自全球品牌厂商，确保部件高品质性能</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pic">
+                                <img src="img/advantage_item_01.png" alt="">
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+
+                        <div class="inner clearfix">
+                            <div class="con  clearfix">
+                                <div class="icon fl">
+                                    <i>
+                                        <img src="img/advantage_icon_02.png" alt="">
+                                    </i>
+                                </div>
+                                <div class="content fl">
+                                    <div class="tit">
+                                        <p>技术底蕴深厚，铸造高品质！</p>
+                                    </div>
+                                    <div class="desc">
+                                        <p>◆ 坚持自主研发制造，拥有30多项专利证书</p>
+                                        <p>◆ 国内首条洗车机智能装配流水线</p>
+                                        <p>◆ 芯片级智能工控电脑驱动模块全新定义第四代洗车机</p>
+                                        <p>◆ 蜗壳式风机，风干效果95%</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pic">
+                                <img src="img/advantage_item_02.png" alt="">
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="inner clearfix">
+                            <div class="con  clearfix">
+                                <div class="icon fl">
+                                    <i>
+                                        <img src="img/advantage_icon_03.png" alt="">
+                                    </i>
+                                </div>
+                                <div class="content fl">
+                                    <div class="tit">
+                                        <p>厂家直销，多重检测交付更可靠！</p>
+                                    </div>
+                                    <div class="desc">
+                                        <p>◆ 厂家直销无中间商赚差价，价格更实惠</p>
+                                        <p>◆ 根据客户需求定制，研发、制造、加工、安装一体化生产</p>
+                                        <p>◆ 出厂前需经过多道检测工序，实现交付的可靠性</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pic">
+                                <img src="img/advantage_item_03.png" alt="">
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+
+                        <div class="inner clearfix">
+                            <div class="con  clearfix">
+                                <div class="icon fl">
+                                    <i>
+                                        <img src="img/advantage_icon_01.png" alt="">
+                                    </i>
+                                </div>
+                                <div class="content fl">
+                                    <div class="tit">
+                                        <p>连心服务，完善的售后服务体系！</p>
+                                    </div>
+                                    <div class="desc">
+                                        <p>◆ 拥有专业售后服务团队，每月巡检，主动售后</p>
+                                        <p>◆ 3大联合生产基地，50家城市合伙人，30家售后配套点</p>
+                                        <p>◆ 2小时响应远程解决，4小时处理好</p>
+                                        <p>◆ 超过48小时未解决问题，保内客户按200元/天的标准赔偿</p>
+                                        <div class="btn">
+                                            <a href=""><span>立即咨询</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pic">
+                                <img src="img/advantage_item_04.png" alt="">
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="cooperation">
+        <div class="main pt80">
+            <div class="plate-title">
+                <div class="cn"><span>合作案例</span></div>
+                <div class="en"><span>Cooperation Case</span></div>
+            </div>
+            <div class="wrap">
+                <div class="list cooperation-list">
+                    <ul>
+                        <li><a href="javascript:;"><img src="img/hezuo_01.png" alt=""></a></li>
+                        <li><a href="javascript:;"><img src="img/hezuo_02.png" alt=""></a></li>
+                        <li><a href="javascript:;"><img src="img/hezuo_03.png" alt=""></a></li>
+                        <li><a href="javascript:;"><img src="img/hezuo_04.png" alt=""></a></li>
+                        <li><a href="javascript:;"><img src="img/hezuo_05.png" alt=""></a></li>
+                        <li><a href="javascript:;"><img src="img/hezuo_06.png" alt=""></a></li>
+                        <li><a href="javascript:;"><img src="img/hezuo_07.png" alt=""></a></li>
+                        <li><a href="javascript:;"><img src="img/hezuo_08.png" alt=""></a></li>
+                        <li><a href="javascript:;"><img src="img/hezuo_09.png" alt=""></a></li>
+                        <li><a href="javascript:;">
+                            <span>更多合作伙伴</span>
+                            <i class="iconfont icon-chakangengduo"></i>
+                        </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="customer">
+        <div class="main pt80">
+            <div class="plate-title">
+                <div class="cn"><span>客户见证</span></div>
+                <div class="en"><span>Customer Testimonials</span></div>
+            </div>
+        </div>
+        <div class="customer-swiper">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="javascript:;">
+                            <img src="img/customer_img_01.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="javascript:;">
+                            <img src="img/customer_img_01.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="javascript:;">
+                            <img src="img/customer_img_01.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="customer-swiper-btn">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="news-index">
+        <div class="main ph80">
+            <div class="topbar clearfix">
+                <div class="plate-title clearfix fl">
+                    <div class="cn fl"><span>新闻资讯</span></div>
+                    <div class="en fl"><span>NEWS</span></div>
+                </div>
+                <div class="tabs fr">
+                    <ul>
+                        <li><a href="">企业新闻</a></li>
+                        <li><a href="">行业资讯</a></li>
+                        <li><a href="">查看更多>></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="wrap clearfix">
+                <div class="left fl">
+                    <div class="pic">
+                        <a href="">
+                            <img src="img/news_thumb_01.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="con">
+                        <a href="" class="clearfix">
+                            <div class="time fl">
+                                <p class="t1">2019</p>
+                                <p class="t2">11-21</p>
+                            </div>
+                            <div class="con">
+                                <div class="tit fl"><p>蓝天科利欧蓝运维工程师走进湖南中石油</p></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="right fr">
+                    <ul>
+                        <li>
+                            <div class="time">
+                                <p class="t1">2019</p>
+                                <p class="t2">11-21</p>
+                            </div>
+                            <div class="con">
+                                <div class="tit"><p>感恩客户，赢在一路有您</p></div>
+                                <div class="desc"><p>不觉春节已进入倒计时了，一股浓烈的味道在空气中弥漫开来，这味道是回乡车流的一场拥挤，这味道是置办年货匆忙的节奏！</p></div>
+                            </div>
+                            <div class="more"><a href=""><span>more+</span></a></div>
+                        </li>
+                        <li>
+                            <div class="time">
+                                <p class="t1">2019</p>
+                                <p class="t2">11-21</p>
+                            </div>
+                            <div class="con">
+                                <div class="tit"><p>感恩客户，赢在一路有您</p></div>
+                                <div class="desc"><p>不觉春节已进入倒计时了，一股浓烈的味道在空气中弥漫开来，这味道是回乡车流的一场拥挤，这味道是置办年货匆忙的节奏！</p></div>
+                            </div>
+                            <div class="more"><a href=""><span>more+</span></a></div>
+                        </li>
+                        <li>
+                            <div class="time">
+                                <p class="t1">2019</p>
+                                <p class="t2">11-21</p>
+                            </div>
+                            <div class="con">
+                                <div class="tit"><p>感恩客户，赢在一路有您</p></div>
+                                <div class="desc"><p>不觉春节已进入倒计时了，一股浓烈的味道在空气中弥漫开来，这味道是回乡车流的一场拥挤，这味道是置办年货匆忙的节奏！</p></div>
+                            </div>
+                            <div class="more"><a href=""><span>more+</span></a></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>
+
+
+<!--内容区E-->
+
+<!--侧边悬浮S-->
+<div class="guide">
+    <div class="guide-wrap">
+        <div class="guide-item">
+            <a target="_blank" href="">
+                <div class="icon"><i class="iconfont icon-dianhua"></i></div>
+                <div class="txt"><span>联系电话</span></div>
+            </a>
+        </div>
+        <div class="guide-item">
+            <a target="_blank" href="">
+                <div class="icon"><i class="iconfont icon-qq-copy"></i></div>
+                <div class="txt"><span>QQ咨询</span></div>
+            </a>
+        </div>
+        <div class="guide-item">
+            <a href="">
+                <div class="icon"><i class="iconfont icon-liuyan"></i></div>
+                <div class="txt"><span>在线留言</span></div>
+            </a>
+        </div>
+        <div class="guide-item">
+            <a href="javascript:;">
+                <div class="icon"><i class="iconfont icon-weixin"></i></div>
+                <div class="txt"><span>公众号</span></div>
+            </a>
+            <div class="guide-item-child">
+                <div class="guide-item-child-wrap">
+                    <img src="img/qrcode_01.png" alt="">
+                    <div class="shadow"></div>
+                </div>
+            </div>
+        </div>
+        <div class="guide-item">
+            <a href="javascript:void (0);" id="totop">
+                <div class="icon"><i class="iconfont icon-fanhuidingbu-copy"></i></div>
+                <div class="txt"><span>返回顶部</span></div>
+            </a>
+        </div>
+    </div>
+</div>
+<!--侧边悬浮E-->
+
+
+<!--通用底部留言S-->
+<div class="record">
+    <div class="main ph80">
+        <div class="wrap clearfix">
+            <div class="left fl">
+                <p class="p1">科利欧蓝<b>真诚服务，量身定制</b></p>
+                <p class="p2">立即留言，免费获取方案！</p>
+                <p class="p3">集研发、制造、加工、安装一体化生产</p>
+                <p class="p4">咨询热线：<b>0731 - 84650818</b></p>
+                <p class="p5">Sincere Service</p>
+                <p class="p6">Tailor-made</p>
+            </div>
+            <div class="right fr">
+                <form action="">
+                    <input type="text" placeholder="姓名">
+                    <input type="text" placeholder="电话">
+                    <input type="text" placeholder="地址">
+                    <button type="submit">立即留言</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!--通用底部留言E-->
+
+
+<!--友情链接S-->
+<div class="friend-link">
+    <div class="main">
+        <div class="wrap">
+            <span>友情链接 <i class="iconfont icon-bianjiICONCopy-"></i></span>
+            <a href="">友情链接</a>
+            <a href="">友情链接</a>
+            <a href="">友情链接</a>
+            <a href="">友情链接</a>
+            <a href="">友情链接</a>
+            <a href="">友情链接</a>
+            <a href="">友情链接</a>
+        </div>
+    </div>
+</div>
+<!--友情链接E-->
+
+<!--通用底部S-->
+<footer>
+    <div class="main">
+        <div class="wrap clearfix">
+            <div class="fLogo fl">
+                <a href="javascript:;">
+                    <img src="img/footer_logo.png" alt="">
+                </a>
+            </div>
+            <div class="fNav fl">
+                <ul class="fNav-list"> 　　　　　　
+                    <li><a href="">关于我们</a></li>
+                    <li><a href="">产品中心</a></li>
+                    <li><a href="">成功案例</a></li>
+                    <li><a href="">售后服务</a></li>
+                    <li><a href="">合作政策</a></li>
+                    <li><a href="">新闻资讯</a></li>
+                    <li><a href="">联系我们</a></li>
+                    <li><a href="">返回首页</a></li>
+                </ul>
+                <div class="fCopyright">
+                    <p>Copyright 2019 蓝天科利欧蓝洗车机 版权所有</p>
+                    <p>湘ICP备16016675号-1 技术支持：<a href="http://www.zhitouweilai.com">智投未来</a></p>
+                </div>
+            </div>
+            <div class="fContact fl">
+                <p class="p1">蓝天科利欧蓝洗车机</p>
+                <p>地址：长沙市经济技术开发区楠竹园路58号  </p>
+                <p>电话：0731 - 84650818</p>
+                <p>邮箱：2436228@qq.com</p>
+            </div>
+            <div class="fCode clearfix fr">
+                <div class="item fl">
+                    <img src="img/qrcode_01.png" alt="">
+                    <p>关注微信公众号</p>
+                </div>
+                <div class="item fl">
+                    <img src="img/qrcode_02.png" alt="">
+                    <p>关注手机官网</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--通用底部E-->
+
+</body>
+
+</html>
+
+<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="js/swiper.min.js"></script>
+<script type="text/javascript" src="js/jparticle.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
